@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Maitree');
+
+body, html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.main-body {
+    /*margin: 10px 25px*/
+    margin-bottom: 10px;
+}
+
+.background-image {
+    /*background-image: url(goldclock.png);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-left: 10px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #C0B283;
+    color: #FFFFFF;
+}
+
+.active {
+    background-color: #C0B283;
+    color: #FFFFFF;
+}
+
+li a:hover:not(.active) {
+    background-color: #C0B283;
+    color: #FFFFFF;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Maitree', serif;
+}
+
+.main-row {
+  display: flex;
+}
+
+.main-column {
+  /*flex: 33.33%;
+  padding: 5px;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 50px;*/
+  min-width: 33.33%;
+  min-height: 33.33%;
+  display: inline-block;
+}
+  
+  
+a { 
+    text-decoration: none;
+}
+
+.main-content {
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width:  70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background-color: #3B5998;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    background-color: #55ACEE;
+    color: #FFFFFF;
+}
+
+.fa-youtube {
+    background-color: #BB0000;
+    color: #FFFFFF;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+body {
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    /*display: -ms-flexbox;*/
+    display: flex;
+    /*-ms-flex-wrap: wrap;*/
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+   /* -ms-flex: 33%;*/
+    /*flex: 33%;*/
+    padding: 0 4px;
+    flex: 25%;
+    max-width: 33.3%;
+ 
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.footer {
+    padding: 3px;
+    text-align: center;
+    background-color: #000000;
+}
+
+h4, h1, h3 {
+    font-family: 'Maitree', serif;
+    font-size: 25px;
+}
+
+h4 {
+    color: #FFFFFF;
+}
+
+h5 {
+    color: #FFFFFF;
+}
+
+/*.main-row main-column h3 {
+    text-align: center;
+}*/
